@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("/Project_10/images/retro-living-room-interior-design.webp");
+    background-size: cover;
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    color: #fff;
+    margin-left: -13rem;
+}
+
+.logo img {
+    width: 6rem;
+    height: 4rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.nav-bar {
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.unorder-list {
+    display: flex;
+    gap: 3rem;
+    border-bottom: .3rem solid #fff;
+}
+
+.list-item {
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+    color: #ffff;
+    font-size: 1.6rem;
+}
+
+.call-us {
+    display: flex;
+    border-bottom: .3rem solid #fff;
+}
+
+.call-us img {
+    margin-top: -2.9rem;
+    margin-right: -3.5rem;
+}
+
+.num-txt {
+    margin-right: 4rem;
+}
+
+.num-txt h4 {
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+.text {
+    color: white;
+    font-size: 5rem;
+}
+
+.top-left {
+    margin: 10.2rem 8.6rem;
+}
+
+.top-right {
+    float: right;
+    margin-top: -27rem;
+    width: 23rem;
+    height: 14rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: -1;
+    right: 8.6rem;
+}
+
+.bottom-right img {
+    margin-left: -10.4rem;
+    margin-top: -.6rem;
+    position: relative;
+}
+
+.top-right img {
+    position: relative;
+}
+
+.white {
+    width: 8.5rem;
+    height: 3.9rem;
+    background-color: rgb(255 255 255);
+    display: block;
+    position: absolute;
+    margin: 2.3rem 2.3rem;
+    border-radius: 3.8rem;
+}
+
+.line1 {
+    width: 0.15rem;
+    height: 6.2rem;
+    background-color: rgb(255 255 255);
+    float: right;
+    right: 5.2rem;
+    z-index: 3;
+    position: absolute;
+    top: 14rem;
+}
+
+.circle1 {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    float: right;
+    margin-top: 3rem;
+    position: absolute;
+    right: 4.7rem;
+    z-index: 3;
+    top: 16.3rem;
+}
+
+.bottom-right {
+    float: right;
+    margin-top: -9.3rem;
+    width: 23rem;
+    height: 14rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: -1;
+    right: 26.6rem;
+}
+
+.line2 {
+    width: 6.2rem;
+    height: .15rem;
+    background-color: rgb(255 255 255);
+    float: right;
+    right: -27%;
+    z-index: 3;
+    top: 6.1rem;
+    position: absolute;
+}
+
+.circle2 {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 2rem;
+    background-color: rgb(255 255 255);
+    float: right;
+    z-index: 3;
+    position: absolute;
+    right: -7rem;
+    top: 5.7rem;
+}
+
+.bottom-right p,
+.top-right p {
+    color: #fff;
+    margin: -2.7rem 2.6rem;
+    font-size: 1.6rem;
+}
+
+.bottom-left {
+    margin-left: 8.7rem;
+}
+
+#learn {
+    width: 20rem;
+    height: 5rem;
+    background: none;
+    border: 0.2rem solid rgb(255 255 255);
+}
+
+button {
+    border-radius: 2.9rem;
+    color: #fff;
+}
+
+
+@media(max-width:900px) {}
+
+@media(max-width:768px) {
+    html {
+        font-size: 47%;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        width: 85rem;
+        height: 78.5rem;
+    }
+
+    .navigation {
+        margin-left: 10rem;
+    }
+
+    .nav-bar {
+        margin-left: 3rem;
+    }
+
+    .call-us img {
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 4rem;
+    }
+
+    .top-right {
+        right: 1rem;
+    }
+
+    .top-right p {
+        font-size: 1.5rem;
+        margin-top: -5rem;
+    }
+
+    .bottom-right p {
+        font-size: 1.3rem;
+        margin-top: -2rem;
+    }
+
+    .puzzle {
+        top: -1.3rem;
+        right: 2rem;
+    }
+
+    .idea {
+        top: -.3rem;
+        right: 2rem;
+        height: 11rem;
+    }
+}
+
+@media(max-width:345px) {
+
+    html {
+        font-size: 30%;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("/Project_10/images/retro-living-room-interior-design.webp");
+        height: 145.6rem;
+        width: 40rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .logo {
+        margin-left: -5rem;
+    }
+
+    .menu {
+        position: absolute;
+        right: 7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .bar{
+        width: 5rem;
+        height: .5rem;
+        background: #000;
+    }
+
+    .menu:hover {
+        cursor: pointer;
+        padding: 1rem;
+        background-color: #fff;
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+
+    .bar:hover{
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+
+    .text {
+        font-size: 3.4rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+    }
+
+    .top-right {
+        position: fixed;
+        margin-top: 56rem;
+        float: right;
+        margin-right: 4rem;
+    }
+
+    .bottom-right {
+        position: fixed;
+        margin-top: 75rem;
+        margin-right: 10rem;
+    }
+
+    .bottom-left {
+        position: absolute;
+        top: 30rem;
+        left: 15rem;
+    }
+
+    .white {
+        width: 9rem;
+        height: 4rem;
+    }
+
+    .puzzle {
+        position: absolute;
+        top: -1.5rem;
+        right: 2rem;
+        width: 40rem;
+    }
+
+    .idea {
+        position: absolute;
+        top: -.5rem;
+        left: -1rem;
+        width: 32rem;
+    }
+
+    .line1 {
+        top: 14rem;
+    }
+
+    .circle1 {
+        top: 17rem;
+    }
+
+    .circle2 {
+        top: 5.7rem;
+    }
+
+    .top-right p {
+        margin: -6rem 2.6rem;
+        font-size: 1.6rem;
+    }
+
+}
