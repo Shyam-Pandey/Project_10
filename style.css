@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url("/Project_10/images/retro-living-room-interior-design.webp");
+    background-image: url("./images/retro-living-room-interior-design.webp");
     background-size: cover;
 }
 
@@ -262,7 +262,7 @@ button {
     body {
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url("/Project_10/images/retro-living-room-interior-design.webp");
+        background-image: url("./images/retro-living-room-interior-design.webp");
         height: 145.6rem;
         width: 40rem;
     }
